@@ -106,9 +106,9 @@
 				*/
 				function displayResults(num1, num2, arr1, arr2) {
 					if ((isAmicable(num1, arr2) == true) && (isAmicable(num2, arr1) == true)) {
-						document.write("Amicable");
+						document.write("The numbers: " + num1 + " and " + num2 + " are amicable");
 					} else {
-						document.write("Not Amicable");
+						document.write("The numbers: " + num1 + " and " + num2 + " are not amicable");
 					}
 				}
 				
@@ -135,7 +135,9 @@
 					document.write("<br />")
 				}
 				
+				document.write("Factors of " + num1 + ": ");
 				displayFactors(arr1);
+				document.write("Factors of " + num2 + ": ");
 				displayFactors(arr2);
 			</script>
 		</div>
